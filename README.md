@@ -6,17 +6,17 @@ The objective of this challenge is to compare the Random Forest Model with the S
 
 Both models performance increased after using the GridSearch function. We can conlcude that the Random Classification Model performed better after reviewing the model's scores listed below.  
 
-## Random Forest Model Performance: 
+### Random Forest Model Performance: 
 
-### Initial Scores: 
+#### Initial Scores: 
 Training Data Score: 0.9938966240701889
 Testing Data Score: 0.8752860411899314
 
-### After using GridSearch's best params: 
+#### After using GridSearch's best params: 
 New Training Data Score: 1.0
 New Testing Data Score: 0.898741418764302
 
-### Classification Report: 
+#### Classification Report: 
                  precision    recall  f1-score   support
 
      CANDIDATE       0.83      0.75      0.79       411
@@ -27,18 +27,18 @@ FALSE POSITIVE       0.97      0.99      0.98       853
      macro avg       0.88      0.87      0.87      1748
   weighted avg       0.90      0.90      0.90      1748
 
-## SVC Model Performance: 
+### SVC Model Performance: 
 
-### Initial Scores: 
+#### Initial Scores: 
 Training Data Score: 0.8455082967766546
 Testing Data Score: 0.8415331807780321
 
-### After using GridSearch's best params: 
+#### After using GridSearch's best params: 
 New Training Data Score: 0.8865153538050734
 New Testing Data Score: 0.8792906178489702
 
 
-### Classification Report: 
+#### Classification Report: 
                  precision    recall  f1-score   support
 
      CANDIDATE       0.81      0.67      0.73       411
