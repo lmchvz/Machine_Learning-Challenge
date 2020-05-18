@@ -1,6 +1,10 @@
-# Machine Learning Challenge - Exoplanet Exploration
+## Machine Learning Challenge - Exoplanet Exploration
 
-I've compared the Random Forest Model with the SVC as they are both classification models and we are trying to classify the exoplanets. Both models performance increased after using the GridSearch function. We can conlcude that the Random Classification Model performed better after reviewing the model's scores listed below.  
+
+### Project Description: 
+The objective of this challenge is to compare the Random Forest Model with the SVC model as they are both classification models to classify the exoplanets. 
+
+Both models performance increased after using the GridSearch function. We can conlcude that the Random Classification Model performed better after reviewing the model's scores listed below.  
 
 ## Random Forest Model Performance: 
 
